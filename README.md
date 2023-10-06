@@ -37,6 +37,8 @@ fees if exist
 
 •   WebElement class: Which contains the clickOnElement() and getElementText() which can be used frequently
 
+### Project structure: 
+![Project structure](https://drive.google.com/file/d/16gZ17aXdcjz687j-OBBcMlZz9phBDHy0/view?usp=sharing)
 
 ## Running Tests
 ### first method
