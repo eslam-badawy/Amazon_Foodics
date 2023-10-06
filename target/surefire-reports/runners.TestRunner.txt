@@ -1,0 +1,109 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 10.251 s <<< FAILURE! - in runners.TestRunner
+Verify subscription packages for different countries #1(Validate subscription packages on STC TV website)  Time elapsed: 3.458 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.132 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GGSTECH6338LAP', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0099A813+48355]
+	(No symbol) [0x0092C4B1]
+	(No symbol) [0x00835358]
+	(No symbol) [0x008561AC]
+	(No symbol) [0x00851EF3]
+	(No symbol) [0x00850579]
+	(No symbol) [0x00880C55]
+	(No symbol) [0x0088093C]
+	(No symbol) [0x0087A536]
+	(No symbol) [0x008582DC]
+	(No symbol) [0x008593DD]
+	GetHandleVerifier [0x00BFAABD+2539405]
+	GetHandleVerifier [0x00C3A78F+2800735]
+	GetHandleVerifier [0x00C3456C+2775612]
+	GetHandleVerifier [0x00A251E0+616112]
+	(No symbol) [0x00935F8C]
+	(No symbol) [0x00932328]
+	(No symbol) [0x0093240B]
+	(No symbol) [0x00924FF7]
+	(No symbol) [0x76AF7D59]
+	RtlInitializeExceptionChain [0x770AB79B+107]
+	RtlClearBits [0x770AB71F+191]
+
+
+Verify subscription packages for different countries #1(Validate subscription packages on STC TV website)  Time elapsed: 3.458 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "Steps.Hooks.driver" is null
+
+Verify subscription packages for different countries #2(Validate subscription packages on STC TV website)  Time elapsed: 2.283 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.132 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GGSTECH6338LAP', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0099A813+48355]
+	(No symbol) [0x0092C4B1]
+	(No symbol) [0x00835358]
+	(No symbol) [0x008561AC]
+	(No symbol) [0x00851EF3]
+	(No symbol) [0x00850579]
+	(No symbol) [0x00880C55]
+	(No symbol) [0x0088093C]
+	(No symbol) [0x0087A536]
+	(No symbol) [0x008582DC]
+	(No symbol) [0x008593DD]
+	GetHandleVerifier [0x00BFAABD+2539405]
+	GetHandleVerifier [0x00C3A78F+2800735]
+	GetHandleVerifier [0x00C3456C+2775612]
+	GetHandleVerifier [0x00A251E0+616112]
+	(No symbol) [0x00935F8C]
+	(No symbol) [0x00932328]
+	(No symbol) [0x0093240B]
+	(No symbol) [0x00924FF7]
+	(No symbol) [0x76AF7D59]
+	RtlInitializeExceptionChain [0x770AB79B+107]
+	RtlClearBits [0x770AB71F+191]
+
+
+Verify subscription packages for different countries #2(Validate subscription packages on STC TV website)  Time elapsed: 2.283 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "Steps.Hooks.driver" is null
+
+Verify subscription packages for different countries #3(Validate subscription packages on STC TV website)  Time elapsed: 3.436 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.132 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GGSTECH6338LAP', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0099A813+48355]
+	(No symbol) [0x0092C4B1]
+	(No symbol) [0x00835358]
+	(No symbol) [0x008561AC]
+	(No symbol) [0x00851EF3]
+	(No symbol) [0x00850579]
+	(No symbol) [0x00880C55]
+	(No symbol) [0x0088093C]
+	(No symbol) [0x0087A536]
+	(No symbol) [0x008582DC]
+	(No symbol) [0x008593DD]
+	GetHandleVerifier [0x00BFAABD+2539405]
+	GetHandleVerifier [0x00C3A78F+2800735]
+	GetHandleVerifier [0x00C3456C+2775612]
+	GetHandleVerifier [0x00A251E0+616112]
+	(No symbol) [0x00935F8C]
+	(No symbol) [0x00932328]
+	(No symbol) [0x0093240B]
+	(No symbol) [0x00924FF7]
+	(No symbol) [0x76AF7D59]
+	RtlInitializeExceptionChain [0x770AB79B+107]
+	RtlClearBits [0x770AB71F+191]
+
+
+Verify subscription packages for different countries #3(Validate subscription packages on STC TV website)  Time elapsed: 3.436 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "Steps.Hooks.driver" is null
+
